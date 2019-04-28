@@ -201,7 +201,7 @@ function listUpcomingEvents() {
         gapi.client.calendar.events.list({
             'calendarId': user_calendar_id,
             'timeMin': (new Date(user_start_date)).toISOString(),
-            'timeMax': (new Date(user_end_date)).toISOString(),
+            'timeMax': (new Date(user_end_date + " 23:59")).toISOString(),
             'showDeleted': false,
             'singleEvents': true,
             'maxResults': 100,
