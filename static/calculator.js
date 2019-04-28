@@ -81,6 +81,7 @@ function handleAuthClick(event) {
  */
 function handleSignoutClick(event) {
     gapi.auth2.getAuthInstance().signOut();
+    clear_table("#event_table")
 }
 
 /**
