@@ -9,6 +9,7 @@ A quick project for myself to automate work hour calculation. Uses Google Calend
     The rest of this file cointains more info how to do it. 
     
 2. ADD YOUR API KEY AND CLIENT_ID
+
     "CLIENT_ID": "12345678910-asdf1234asfd12341asdf1234.apps.googleusercontent.com",
     "API_KEY": "AIf43hg2WfjFh2gf4F213hgD4hg3fj231fj4_3f"
 
