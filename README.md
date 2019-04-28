@@ -1,21 +1,16 @@
 A quick project for myself to automate work hour calculation. Uses Google Calendar API and Google OAuth to fetch all events from your calendar. between given dates. Events are fetched by: start date, end date, search phrase and calendar ID.
 
-1. RUN A WEB SERVER
-
-To run you need any kind of a web server. Node.js or apache or whatever floats your boat. I used python for that matter. To start python web server in the projects directory run:
-for python 3.x:
-`python -m http.server 8000`
-for python 2.x:
-`python -m SimpleHTTPServer 8000`
-
-2. ADD YOUR API KEY AND CLIENT_ID TO credentials.json FILE:
-
-the credentials should look something like this:
-{
+1. To run on your own server you need to:
+    1. download this repo
+    2. Install packages via `pip install requiremesnts.txt`
+    3. Run server with `python manage.py runserver`. If something doesn't work check here:
+    https://docs.djangoproject.com/en/2.2/intro/tutorial01/#the-development-server
+    4. Last thing you need to do is add your own Google Calendar API credentials to the top of calculator.js file.
+    The rest of this file cointains more info how to do it. 
+    
+2. ADD YOUR API KEY AND CLIENT_ID
     "CLIENT_ID": "12345678910-asdf1234asfd12341asdf1234.apps.googleusercontent.com",
     "API_KEY": "AIf43hg2WfjFh2gf4F213hgD4hg3fj231fj4_3f"
-}
-
 
 3. HOW TO GENERATE GOOGLE API CREDENTIALS:
 
