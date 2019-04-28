@@ -185,6 +185,7 @@ function clear_table(selector){
 }
 
 function listUpcomingEvents() {
+    clear_table("#event_table");
     let user_start_date = document.getElementById("start_date").value;
     let user_end_date = document.getElementById("end_date").value;
     let user_search_phrase = document.getElementById("search_phrase").value;
