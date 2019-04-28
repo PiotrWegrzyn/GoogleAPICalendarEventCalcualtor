@@ -1,7 +1,7 @@
 A quick project for myself to automate work hour calculation. Uses Google Calendar API and Google OAuth to fetch all events from your calendar. between given dates. Events are fetched by: start date, end date, search phrase and calendar ID.
 
 1. To run on your own server you need to:
-    1. download this repo
+    1. Download this repo
     2. Install packages via `pip install requiremesnts.txt`
     3. Run server with `python manage.py runserver`. If something doesn't work check here:
     https://docs.djangoproject.com/en/2.2/intro/tutorial01/#the-development-server
