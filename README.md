@@ -39,3 +39,11 @@ On the left side-bar you should see a list of calendars you're subscribed to.
 When you hover your mouse over it a button with 3 dots appears. Click on it and choose Settings.
 
 Scroll down a bit and you should see a section called "Calendar Integration" and the first field called Calendar id is what we're looking for. Copy and paste that and you should see events from that calendar.
+
+5. HOW TO DEPLOY TO AWS:
+
+That's a lot of work. First you need to create you're account ofcourse. Then you need to download and setup the AWS EB CLI from here:
+https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html
+
+When you're done follow these instructions:
+https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-django.html#python-django-prereq
